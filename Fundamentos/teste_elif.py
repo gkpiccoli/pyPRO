@@ -6,4 +6,4 @@ elif bebida == "coca":
 elif bebida == "guarana":
     print("O guaraná está de graça!!!")
 else:
-    print("Desculpe mas não temos a bebida que o Sr. deseja.")
+    print("Desculpe mas não temos", bebida, " que o Sr. deseja.")
