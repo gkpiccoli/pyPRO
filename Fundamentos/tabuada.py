@@ -1,4 +1,5 @@
-i = 1
-while i < 11:
-    print(f"{i} x 8 = {i * 8}")
-    i += 1
+numero = int(input("Digite até que número você quer que eu escreva a tabuada: "))
+for i in range(1, numero + 1):
+    print(f"\n Tabuada do {i} \n")
+    for j in range(1, 11):
+        print(f"{i} x {j} = {i * j}")
