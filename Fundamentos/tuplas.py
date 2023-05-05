@@ -13,4 +13,4 @@ total = sum(tupla_idades)
 media = total / quantidade
 
 print(f"Total de idades é {quantidade:.2f}")
-print(f"Media das idades é {media:.2f}")
+print(f"A média das idades é {media:.2f}")
